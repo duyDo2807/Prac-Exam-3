@@ -6,6 +6,8 @@ Car::Car(int price) : price(price), emissions(0) {}
 
 void Car::set_price(int newPrice) { price = newPrice; }
 
+void Car::set_emissions(int emissions) { emissions = emissions; }
+
 int Car::get_emissions() { return emissions; }
 
 int Car::get_price() { return price; }
